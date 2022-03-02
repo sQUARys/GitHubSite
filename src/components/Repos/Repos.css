@@ -1,0 +1,16 @@
+.MainRepos{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 30px;
+}
+
+.link{
+    border: 2px solid #B7E4C7;
+    background-color: #B7E4C7;
+    border-radius: 10px;
+    text-decoration: none;
+    box-shadow: 5px 5px 5px #74C69D;
+    padding: 5px;
+    color: black;
+}

@@ -1,0 +1,83 @@
+.fixed{
+    margin: 0 auto;
+    display: flex;
+}
+
+.toHomeDiv{
+    margin: 20px;
+}
+
+.toHome{
+    border: 2px solid #B7E4C7;
+    background-color: #B7E4C7;
+    border-radius: 10px;
+    text-decoration: none;
+    box-shadow: 5px 5px 5px #74C69D;
+    padding: 10px;
+    color: black;
+}
+
+.container{
+    background-color: #95D5B2;
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px #74C69D;
+    padding: 30px;
+    width: 1000px;
+}
+
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.MainTopic{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5em;
+}
+
+.img{
+    width: 15em;
+    height: 15em;
+    background-size: contain;
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.open_profile{
+    border: 2px solid #B7E4C7;
+    background-color: #B7E4C7;
+    border-radius: 10px;
+    text-decoration: none;
+    box-shadow: 5px 5px 5px #74C69D;
+    padding: 10px;
+    color: black;
+}
+
+
+.all_info{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    grid-gap: 30px;
+}
+
+.info_list{
+    list-style: none;
+}
+
+.github_info{
+    list-style: none;
+}
+
+.repos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+}
